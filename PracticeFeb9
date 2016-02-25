@@ -1,0 +1,7 @@
+upperCaseFirstLetters("something to uppercase")
+
+function upperCaseFirstLetters(aStr){
+  var cleaned = aStr.trim();
+  var words = cleaned.split(" ");
+  return this.charAt(0).toUpperCase() + this.slice(1);
+}

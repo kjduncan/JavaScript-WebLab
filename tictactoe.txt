@@ -1,0 +1,18 @@
+create a table with 9 input options (3 tr 3 td)
+assign value to each input (1,1 1,2 etc)
+define all possible win scenarios (8 total)
+define loss scenarios (!= win)
+define draw scenario (entire table filled)
+
+identify players
+player 1 = x
+player 2 = o
+alert first turn
+input turn (player clicks)
+alert next turn
+alternate values between o and x every turn
+keep track what has been played
+calculate win scenarios based on player input
+win alert//lose alert
+draw scenario = lose alert
+auto reset to 0 (reset button)
